@@ -1,0 +1,78 @@
+@import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/effect-coverflow";
+@import "swiper/css/pagination";
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Days One", sans-serif;
+  font-weight: 400;
+}
+.menu-daysone {
+  font-family: "Days One", sans-serif;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.swiper-wrapper {
+  margin-bottom: 52px;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  } /* Move half because array is doubled */
+}
+
+@keyframes marquee-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+.animate-marquee-reverse {
+  animation: marquee-reverse 20s linear infinite;
+}
+.clip-single-zigzag {
+  clip-path: polygon(0 0, 90% 0, 100% 10%, 100% 90%, 90% 100%, 0 100%);
+}
+
+.swiper-wrapper {
+  margin-bottom: 26px !important;
+}
+/* For Toast Notifications */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slideIn {
+  animation: slideIn 0.35s ease-out;
+}
