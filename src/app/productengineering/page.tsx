@@ -13,8 +13,9 @@ type CardProps = {
   title: string;
   description: string;
   titlenew: string;
-  moredata: string;
+  moredata: string[];
 };
+
 // ✅ Card Component
 function Card({ image, title, description, titlenew, moredata }: CardProps) {
   return (
@@ -30,15 +31,20 @@ function Card({ image, title, description, titlenew, moredata }: CardProps) {
         <h3 className="text-xl font-bold tracking-wide mb-3 text-[#000080]">
           {title}
         </h3>
-        <p className="text-black  text-justify text-base tracking-wide mb-5 flex-1">
+
+        <p className="text-black text-justify text-base tracking-wide mb-5">
           {description}
         </p>
+
         <h3 className="text-xl font-bold tracking-wide mb-3 text-[#000080]">
           {titlenew}
         </h3>
-        <p className="text-black text-justify text-base tracking-wide mb-5 flex-1">
-          {moredata}
-        </p>
+
+        {/* Render bullet list */}
+        <ul className="list-disc pl-5 space-y-2 text-black text-base tracking-wide">
+          {Array.isArray(moredata) &&
+            moredata.map((item, index) => <li key={index}>{item}</li>)}
+        </ul>
       </div>
     </div>
   );
@@ -167,93 +173,95 @@ export default function Productengineering() {
           <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <Card
               image="/rnd/prodcution.jpg"
-              title="Production-Ready High-Quality  Composite Solutions
-"
-              description="For end-users, first impressions are everything. We specialize in engineering high-grade plastic and composite components that are not just durable and functional, but also  visually and physically appealing. Our team delivers production-ready designs for the parts that end-users see, touch, and engage with, ensuring a flawless final product.
-"
+              title="Production-Ready High-Quality  Solutions"
+              description="For end-users, first impressions are everything. We specialize in engineering high-grade plastic and composite components that are not just durable and functional, but also visually and physically appealing. "
               titlenew="What We Do:"
-              moredata="
-Studio Engineering & Aesthetic Design: We blend aesthetics and engineering to create designs that are both beautiful and manufacturable.
-Function Development & Expertise Support: We develop and validate the functionality of your components, providing expert support to guide your project from concept to mass production.
-"
+              moredata={[
+                "Studio Engineering & Aesthetic Design – We blend aesthetics and engineering to create beautiful, manufacturable designs.",
+                "Function Development & Expert Support – We validate functionality and guide your project from concept to mass production.",
+              ]}
             />
+
             <Card
               image="/rnd/electronics.jpg"
-              title="Electronics & Electrical Design Services
-"
-              description=" Your innovative ideas deserve the right hardware to bring them to life. We offer a comprehensive suite of electronics and electrical design services, taking your concept from initial design to a small series production run. Our expertise spans the entire spectrum, from advanced semiconductor components  to intricate wiring.
-"
+              title=" Electrical Design Services"
+              description="Your innovative ideas deserve the right hardware to bring them to life. We offer a comprehensive suite of electronics and electrical design services, taking your concept from initial design to a small series production run."
               titlenew="What We Do:"
-              moredata="
-Build-to-Spec Electronics Development
-
-: Our team specializes in custom electronics development, including digital, FPGA, analog, power, optical, and microwave electronics.
-Prototype Electrical Design: We handle all aspects of prototype electrical design, from crafting the optimal system architecture to designing wiring harnesses and ensuring EMC compliance and thermal management"
+              moredata={[
+                "Build-to-Spec Electronics Development – Custom electronics development including digital, FPGA, analog, power, optical, and microwave systems.",
+                "Prototype Electrical Design – Optimal system architecture, wiring harness design, EMC compliance, and thermal management for prototypes.",
+              ]}
             />
+
             <Card
               image="/rnd/simulation.jpg"
-              title=" Simulation & Analysis for Complex Structures (FEM Modeling)
-"
-              description="Building complex structures requires precision and foresight. Our simulation and analysis services use a cutting-edge DevOps approach to create large, detailed Finite Element Method (FEM) models. This enables rapid, cost-effective, and highly accurate analysis, so you can validate designs and prevent costly errors before production begins."
+              title="Simulation  For Complex Structures "
               titlenew="What We Do:"
-              moredata="
-MESH Factory: We rapidly convert CAD data into large, detailed FEM models.
-Structural Analysis & Validation: Our team conducts in-depth structural analysis to ensure your designs are robust and reliable.
-Methods & Tools Development: We develop and optimize custom methods and tools to streamline your engineering workflow."
+              description="Building complex structures requires precision and foresight. Our simulation and analysis services use a automated simulation workflow approach
+ to create large, detailed Finite Element Method (FEM) models so you can validate designs."
+              moredata={[
+                "MESH Factory – Rapidly convert CAD data into large, detailed FEM models.",
+                "Structural Analysis & Validation – In-depth structural analysis to ensure designs are robust and reliable.",
+                "Methods & Tools Development – Develop and optimize custom tools to streamline engineering workflow.",
+              ]}
             />
+
             <Card
               image="/rnd/flying.jpg"
-              title="Flying Engineers for Embedded Systems
-"
-              description=" When a critical issue arises in the field, you can’t afford to wait. Our Flying Engineers for embedded systems are a dedicated rapid-response team. We travel worldwide to provide on-site, emergency diagnostics, troubleshooting, testing, and commissioning services for critical embedded systems in transportation and electronic products.
-"
+              title="Flying Engineers for Embedded Systems"
+              description="When a critical issue arises in the field, you can’t afford to wait. Our Flying Engineers are a dedicated rapid-response team providing on-site diagnostics, troubleshooting, testing, and commissioning for embedded systems."
               titlenew="What We Do:"
-              moredata="
-Prototype Diagnostics & Troubleshooting: We diagnose and resolve issues with your early-stage prototypes to keep your development on schedule.
-End-of-Line & In-Service Troubleshooting: Our team provides critical support for products at the end of the production line and those already in service.
-Expert Testing & Commissioning: We ensure your systems are thoroughly tested and correctly commissioned for flawless operation.
-"
+              moredata={[
+                "Prototype Diagnostics & Troubleshooting – Diagnose and resolve issues with early-stage prototypes.",
+                "End-of-Line & In-Service Troubleshooting – Support products at production and in-service stages.",
+                "Expert Testing & Commissioning – Ensure systems are thoroughly tested and correctly commissioned.",
+              ]}
             />
+
             <Card
               image="/rnd/saftey.jpg"
-              title="RAMS & Functional Safety (FuSa) Analysis for Complex Systems
-"
-              description="Safety and reliability are non-negotiable. We provide comprehensive Reliability, Availability, Maintainability, and Safety (RAMS) and Functional Safety (FuSa) analysis services. Our rigorous process helps you proactively identify, reduce, and manage risks in your products and systems, ensuring they meet the highest standards of dependability.
-"
+              title="RAMS & Functional Safety "
+              description="Safety and reliability are nonnegotiable.We provide comprehensive RAMS and Functional Safety (FuSa) analysis to proactively identify, reduce, and manage risks."
               titlenew="What We Do:"
-              moredata="
-RAMS & FuSa for New Products: We perform in-depth analysis for new products to build safety and reliability into the design from day one.
-Product Evolution Analysis: We help you manage risk for product updates and evolutions, ensuring new features do not compromise safety.
-Strategic Audits & Cost Estimation: Our expert audits and cost estimations provide the data you need to make informed strategic decisions regarding risk management and product development.
-"
+              moredata={[
+                "RAMS & FuSa for New Products – Build safety and reliability into designs from day one.",
+                "Product Evolution Safety Analysis – Manage risk during product updates and evolutions.",
+                "Saftey Audits & Cost Impact Estimation – Expert audits and cost estimates for informed strategic decisions.",
+              ]}
             />
+
             <Card
               image="/rnd/future.jpg"
-              title="Innovating with Software-Defined Systems & Products"
-              description="The future is flexible and adaptable. In a world where customer expectations are constantly evolving, a software-defined approach allows your products to evolve with them. We help you design and develop systems where new features and continuous updates are delivered effortlessly through software, providing a superior and lasting customer experience."
+              title="Innovating with Software-Defined Systems "
+              description="We help you design adaptable systems where new features and continuous updates are delivered effortlessly through software, providing a superior and lasting customer experience."
               titlenew="What We Do:"
-              moredata="Systems Engineering for Software-Defined Products: We lay the foundational architecture that enables your products to be adaptable and scalable. Embedded & Offboard Software Development: Our team creates the intelligent software that powers your products, both on the device itself and in the cloud, ensuring seamless integration and functionality."
+              moredata={[
+                "Systems Engineering for Software-Defined Products – Build adaptable and scalable product architectures.",
+                "Embedded & Offboard Software Development – Develop intelligent software for devices and cloud integration.",
+              ]}
             />
+
             <Card
               image="/rnd/desi.jpeg"
-              title="Model-Based Systems Engineering (MBSE) & Design (MBD) Services
-"
+              title="Model-Based Systems Engineering (MBSE) "
               description="Complexity is no longer a challenge with our Model-Based Systems Engineering (MBSE) and Model-Based Design (MBD) expertise. We transform your development lifecycle, replacing traditional, document-heavy processes with a visual, model-based approach that guarantees consistency, quality, and full traceability from concept to completion"
               titlenew="What We Do:"
-              moredata="We use MBSE to manage and trace requirements with unparalleled clarity and precision.
-Robust Systems Architecture Design: Our MBSE-driven approach ensures your systems architecture is robust, reusable, and ready for future iterations.
-Efficient Embedded Software Development: We leverage MBD to create embedded software that is not only high-quality but also developed with maximum efficiency and reliability."
+              moredata={[
+                "Requirements Management – Use MBSE to trace and manage requirements with precision.",
+                "Robust Systems Architecture Design – Ensure systems architecture is robust, reusable, and future-ready.",
+                "Efficient Embedded Software Development – Leverage MBD to create high-quality embedded software efficiently.",
+              ]}
             />
+
             <Card
               image="/footer/embed.jpg"
               title="End-to-End Embedded System Design & Validation Services"
-              description="At the heart of every smart product, from advanced vehicles to cutting-edge aerospace systems, is a perfectly engineered embedded system. We specialize in bringing your most ambitious ideas to life, offering a seamless, end-to-end embedded system development process. From initial architecture to final validation, we design intelligent, reliable, and high-performance solutions that power the future."
+              description="At the heart of every smart product, from advanced vehicles to cutting-edge aerospace systems, is a perfectly engineered embedded system. We specialize in bringing your most ambitious ideas to life, offering a seamless, end-to-end embedded system development process. "
               titlenew="What We Do:"
-              moredata="
-Complete Embedded System Development: We manage the entire lifecycle—from system architecture and design to seamless integration and rigorous validation. Our expertise ensures your product is not just functional but market-ready and robust.
-Specialized Solutions for Advanced Industries: Our engineering solutions are tailored for the most demanding sectors. We provide dedicated support for ADAS, in-vehicle infotainment, and connectivity systems, as well as mission-critical applications in automotive, avionics, and the new space industries.
-
-"
+              moredata={[
+                "Complete Embedded System Development – Manage lifecycle from system architecture and design to integration and validation.",
+                "Specialized Solutions for Advanced Industries – Support ADAS & In-Vehicle Infotainment (IVI), connectivity, aerospace, and new space applications.",
+              ]}
             />
           </div>
         </section>
@@ -335,29 +343,29 @@ Specialized Solutions for Advanced Industries: Our engineering solutions are tai
       </section>
 
       {/* okk */}
-      <section
-        className="relative w-full h-[420px] md:h-[450px] flex items-center justify-center bg-cover bg-center"
-        style={{
-          backgroundImage: "url('/rndimages/gn.jpeg')",
-        }}
-      >
-        <div className="absolute inset-0 bg-black/50"></div>
+      <section className="bg-gray-50 py-16 px-4 sm:px-8 md:px-16 text-center ">
+        <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold tracking-wide text-[#000080] uppercase">
+          Precision-Driven Product Engineering Solutions{" "}
+        </h2>
 
-        <div className="relative z-10 text-center px-4 md:px-20 max-w-3xl">
-          <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">
-            Engineering Brilliance at Your Fingertips
-          </h1>
-          <p className="text-white text-lg md:text-xl mb-6">
-            Transform your ideas into innovative products with precision, speed,
-            and reliability.
-          </p>
+        <div className="w-12 h-[1px] mx-auto mt-2 mb-6 relative"></div>
 
-          <div className="inline-flex items-center gap-3">
-            <button className="border-2 border-white  rounded-lg hover: text-white font-semibold px-5 py-2 rounded-md transition flex items-center gap-3">
-              Get Started Today
-              <ArrowRight className="w-5 h-5" />
-            </button>
-          </div>
+        <p className="text-gray-700 text-sm sm:text-base md:text-lg max-w-4xl mx-auto leading-relaxed">
+          Our product engineering expertise helps transform ideas into reliable,
+          high-performance solutions. From design refinement and
+          simulation-driven validation to manufacturability and performance
+          optimization, we ensure every product is engineered with precision,
+          efficiency, and innovation at its core.
+        </p>
+
+        {/* Centered Button */}
+        <div className="flex items-center justify-center gap-4 mt-6">
+          <button
+            className="border rounded-md text-[#000080] border-[#000080] px-6 py-2 hover:bg-[#000080] hover:text-white transition"
+            onClick={() => (window.location.href = "/rnd-contact")}
+          >
+            Get Started
+          </button>
         </div>
       </section>
 

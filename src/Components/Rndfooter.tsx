@@ -30,13 +30,13 @@ const contacts: Contact[] = [
   {
     title: "Technical Support",
     phone: "9981813922",
-    email: "info@Landsking Infra.com",
+    email: "info@landsking .com",
     img: "/footer/tech.png",
   },
   {
     title: "Our Support",
     phone: "9981813922",
-    email: "Landsking Infrainfra@gmail.com",
+    email: "landskinginfra@gmail.com",
     img: "/footer/support.png",
   },
 ];
@@ -49,9 +49,9 @@ const columns: Column[] = [
       "Civil Engineering",
       "Cloud Services",
       "CAE Simulation Services",
-      "CAD / CAM / CAE Services",
+      "CAD  Services",
       "Product Engineering",
-      "Simulation Design for Manufacturing",
+      "Simulation Design For Manufacturing",
     ],
   },
   {
@@ -78,7 +78,7 @@ const Rndfooter: React.FC = () => {
   return (
     <footer className="bg-[#000080] text-white text-sm">
       <div className=" mx-auto px-4 sm:px-6 lg:px-13 py-12">
-        <div className="hidden md:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div className="hidden md:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {contacts.map((c, i) => (
             <div
               key={i}
@@ -105,15 +105,6 @@ const Rndfooter: React.FC = () => {
               </div>
             </div>
           ))}
-
-          <div className="flex flex-col items-center justify-center text-center p-6 rounded-lg">
-            <p className="mb-3 font-medium text-white">
-              Landsking Infra Infr Pvt Limited
-            </p>
-            <button className="px-6 py-2 bg-white text-[#000080] rounded-xl shadow hover:bg-[#5c78b8] hover:text-white transition">
-              Landsking Infra Infr
-            </button>
-          </div>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-left">

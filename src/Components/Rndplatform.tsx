@@ -8,9 +8,9 @@ import { HiChevronRight } from "react-icons/hi";
 
 const TABS = [
   {
-    title: "CAD / CAM / CAE Services",
+    title: "CAD Services",
     headline: "Precision Through Digital Engineering",
-    body: "Our CAD/CAM/CAE services deliver end-to-end digital engineering solutions. From detailed 3D modeling and advanced simulations to automated manufacturing workflows, we help optimize design accuracy, enhance productivity, and accelerate time-to-market. Each project is executed with precision, innovation, and efficiency.",
+    body: "Our CAD services deliver end-to-end digital engineering solutions. From detailed 3D modeling and advanced simulations to automated manufacturing workflows, we help optimize design accuracy, enhance productivity, and accelerate time-to-market. Each project is executed with precision, innovation, and efficiency.",
     img: "/rndimages/engineers refine designs.jpg",
     buttonText: "VIEW MORE",
     url: "/cadservices",
@@ -66,7 +66,7 @@ export default function Rndplatform() {
     <section className="w-full  md:px-20 lg:px-28">
       <div className="mx-auto px-4 pt-12 text-center ">
         <h1 className="text-2xl text-[#000080] md:text-3xl font-bold tracking-tight">
-          Engineering and RND Solutions
+          Engineering and R&D Solutions
         </h1>
         <p className="mt-4 text-[14px] font-light md:text-[16px] text-gray-600">
           We provide cutting-edge engineering and R&D solutions that drive

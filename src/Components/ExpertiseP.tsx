@@ -26,13 +26,13 @@ export default function ExpertiseP() {
     {
       title: "R&D Engineering & Simulation",
       image: "/imagesall/sim.jpeg",
-      link: "/engineeringsimulation",
+      link: "/rnd",
     },
-    {
-      title: "Architecture & Design services",
-      image: "/expertiseimages/Architecture & Design services.png",
-      link: "/architecture",
-    },
+    // {
+    //   title: "Architecture & Design services",
+    //   image: "/expertiseimages/Architecture & Design services.png",
+    //   link: "/architecture",
+    // },
     {
       title: "Cold Storage and warehouse",
       image: "/expertiseimages/Cold Storage and warehouse.jpg",
@@ -41,18 +41,18 @@ export default function ExpertiseP() {
     {
       title: "Solar Plant Installation",
       image: "/expertiseimages/Solar Plant Installation.jpg",
-      link: "/solar",
+      link: "/renewableenergy",
     },
     { title: "HVAC", image: "/expertiseimages/HVAC.jpg", link: "/hvac" },
     {
       title: "Fire and Safety",
       image: "/expertiseimages/f.jpeg",
-      link: "/firesaftey",
+      link: "/businessAreas/fire-saftey",
     },
     {
       title: "STRUCTURAL ENGINEERING SERVICES",
       image: "/expertiseimages/STRUCTURAL ENGINEERING SERVICES.jpg",
-      link: "/structural",
+      link: "/structuralsteel",
     },
     {
       title: "Infrastructure, Energy & Materials Civil Services",
@@ -84,11 +84,11 @@ export default function ExpertiseP() {
       image: "/expertiseimages/PEB Erection and fabrication.jpg",
       link: "/fabrication",
     },
-    {
-      title: "Advisory & Auditing",
-      image: "/expertiseimages/Advisory & Auditing.jpg",
-      link: "/advisory-auditing",
-    },
+    // {
+    //   title: "Advisory & Auditing",
+    //   image: "/expertiseimages/Advisory & Auditing.jpg",
+    //   link: "/advisory-auditing",
+    // },
   ];
 
   return (

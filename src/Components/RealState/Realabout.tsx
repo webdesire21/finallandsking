@@ -96,18 +96,18 @@ export default function Realabout() {
           </h2>
 
           <p className="text-gray-600 text-justify mb-4 sm:mb-5  text-md sm:text-base">
-            Landsking InfraInfra Pvt.Ltd. with the Team Combined Experience have
-            More Landsking Infra – India’s emerging real estate powerhouse. We
-            specialize in connecting people and properties — from industrial
-            warehouses to retail showrooms, commercial offices to residential
-            townships.Our approach is transparent, data-driven, and
+            Landsking Infra Pvt.Ltd. backed by a highly experienced team
+            Landsking Infra is India’s emerging real estate powerhouse. We
+            specialize in connecting people and properties — ffrom industrial
+            warehouses and retail showrooms to commercial offices and
+            residential townships. Our approach is transparent, data-driven, and
             client-first. From property sourcing and negotiations to
             documentation and deal closure — we manage everything with
             professionalism and precision.
           </p>
           <p className="text-gray-600 text-justify mb-4 sm:mb-5  text-md sm:text-base">
-            <span className="text-[#000080] FONT-BOLD text-LG">
-              “Right Property. Right Price. Right Time.”
+            <span className="text-gray-600  text-md sm:text-base">
+              “Right Property. Right Price. Right Time”
             </span>
             That’s not just a tagline, it’s our operating philosophy.
           </p>

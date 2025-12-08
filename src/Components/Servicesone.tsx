@@ -40,7 +40,7 @@ export default function ExpertiseP() {
       title: "Light Gauge Steel Framing",
       desc: "Lightweight steel structures suitable for residential and commercial buildings, offering design flexibility and rapid construction.",
       image: "expertise/third.png",
-      link: "/lightGaugeSteelFraming",
+      link: "/lightguage",
     },
     {
       title: "Sandwich Panels",

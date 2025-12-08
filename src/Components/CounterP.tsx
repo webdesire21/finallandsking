@@ -62,8 +62,10 @@ export default function CounterP() {
               }`}
             >
               <h5 className="text-[20px] font-bold text-white transition-all duration-500 md:text-[35px]">
-                {counts[i].toFixed(counter.value % 1 !== 0 ? 2 : 0)}
-                {counter.suffix || ""}
+                <span>
+                  {counts[i].toFixed(counter.value % 1 !== 0 ? 2 : 0)}
+                </span>
+                <span className="ml-1">{counter.suffix || ""}</span>
               </h5>
 
               <h6 className="text-white text-[16px] md:text-[19px] mt-0">

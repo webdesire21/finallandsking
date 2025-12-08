@@ -18,7 +18,7 @@ const features = [
   {
     title: "Define Strategy",
     description:
-      "We begin with a deep-dive consultation to lock in your objectives and constraints. This step creates a precise, measurable project scope, ensuring our focus is aligned perfectly with your long-term vision.",
+      "We begin with a in-depth consultation to define your objectives  and constraints. This step creates a precise, measurable project scope, ensuring our focus is aligned perfectly with your long-term vision.",
     icon: <Lightbulb className="text-[#000080] text-4xl mb-4" />,
   },
   {
@@ -30,25 +30,25 @@ const features = [
   {
     title: "Site Validation",
     description:
-      "Your dedicated expert manages and coordinates all property inspections and on-site analysis. We provide technical validation and informed assessment of infrastructure and physical condition during every visit.",
+      "Your dedicated expert manages and coordinates all property inspections and on-site analysis. We provide technical validation and detailed assessment of infrastructure  and physical condition during every visit.",
     icon: <MapPin className="text-[#000080] text-4xl mb-4" />,
   },
   {
     title: "Strategic Negotiation",
     description:
-      "We leverage transactional experience and market intelligence to secure the asset at the 'Right Price' under the most advantageous terms. Our goal is to achieve the optimal financial agreement while protecting your interests.",
+      "We leverage transactional experience and market intelligence to secure the asset at the “Right Price” under the most advantageous terms. Our goal is to achieve the optimal financial agreement while protecting your interests.",
     icon: <Scale className="text-[#000080] text-4xl  mb-4 " />,
   },
   {
     title: "Deal Formalization",
     description:
-      "We oversee the preparation and binding of all formal agreements (LOI/Agreement to Sell). This step securely formalizes the commitment between all parties and locks in the transaction parameters.",
+      "We oversee the preparation and binding of all formal agreements (LOI/Agreement To Sell). This step securely formalizes the commitment between all parties and locks in the transaction parameters.",
     icon: <FileSignature className="text-[#000080] text-4xl mb-4" />,
   },
   {
     title: "Legal Closure",
     description:
-      "Our team manages rigorous due diligence, title verification, and transfer process to ensure zero ambiguity. The transaction is fully closed and legally clear, guaranteeing you undisputed ownership.",
+      "Our team manages rigorous due diligence, title verification, and the transfer process to ensure zero ambiguity. The transaction is fully closed and legally clear, guaranteeing you undisputed ownership.",
     icon: <ShieldCheck className="text-[#000080] text-4xl mb-4" />,
   },
 ];
@@ -56,19 +56,19 @@ export default function OurLineage() {
   return (
     <section className="text-center px-4 sm:px-6 md:mx-5 lg:mx-20 pt-0 md:pt-16 bg-white">
       <h2 className="text-2xl md:text-3xl font-black tracking-wide text-[#000080] uppercase mb-6 md:mb-8">
-        How We Work
+        How We Work. We’ve engineered a process{" "}
       </h2>
 
       {/* Paragraph */}
       <p className="text-sm sm:text-base md:text-lg text-gray  max-w-6xl mx-auto mb-8 md:mb-10 text-justify md:text-center">
         We’ve engineered a process that converts client needs into realized
-        assets, ensuring strategic simplicity from start to finish. Our method
-        is designed to provide end-to-end clarity, seamless communication, and a
-        result-driven experience for every client. The Landsking Infra Workflow:
-        We initiate by understanding your precise requirement and move
-        systematically through shortlisting, site organization, negotiation, and
-        deal finalization, concluding with complete legal documentation. Every
-        step is managed by your dedicated real estate expert.
+        assets, ensuring strategic clarity from start to finish. Our method is
+        designed to provide end-to-end clarity, seamless communication, and a
+        result-driven experience for every client. TThe Landsking Infra
+        Workflow: We begin by understanding your precise requirements and move
+        systematically through shortlisting, site coordination , negotiation,
+        and deal finalization, concluding with complete legal documentation.
+        Every step is managed by your dedicated real estate expert.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-3 mb-10">

@@ -1,46 +1,33 @@
 "use client";
 
+import Link from "next/link";
 import {
-  FaLinkedinIn,
-  FaInstagram,
-  FaFacebookF,
+  FaXTwitter,
+  FaLinkedin,
   FaYoutube,
-} from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+  FaFacebook,
+  FaInstagram,
+} from "react-icons/fa6";
 import Image from "next/image";
 
 export default function FooterReal() {
   return (
-    <footer className="bg-[#f7f7f7] border-t border-gray-200">
-      <div className="max-w-7xl mx-auto px-6 py-12">
+    <footer className="bg-[#000080]  text-white">
+      <div className="max-w-7xl mx-auto px-6 py-18">
         {/* Flex container: mobile stacked, desktop side-by-side */}
         <div className="flex flex-col md:flex-row gap-12">
           {/* Left: Logo + Social */}
-          <div className="order-2 md:order-1 flex flex-col items-center md:items-start gap-6 w-full md:w-1/4">
+          <div className="order-2 md:order-1 flex flex-col items-center md:items-start gap-0 w-full md:w-1/4">
             <Image
-              src="/Landsking Infra.png"
+              src="/whitelogo.png"
               alt="Landsking Infra"
               width={140}
-              height={80}
+              height={60}
             />
-
-            <div className="flex items-center gap-4 flex-wrap justify-center md:justify-start">
-              <a className="p-2 rounded-full bg-sky-600 text-white">
-                <FaLinkedinIn size={22} />
-              </a>
-              <a className="p-2 rounded-full bg-pink-500 text-white">
-                <FaInstagram size={22} />
-              </a>
-              <a className="p-2 rounded-full bg-blue-600 text-white">
-                <FaFacebookF size={22} />
-              </a>
-              <a className="p-2 rounded-full bg-red-600 text-white">
-                <FaYoutube size={22} />
-              </a>
-              <a className="p-2 rounded-full bg-black text-white">
-                <FaXTwitter size={22} />
-              </a>
-            </div>
+            <p className="">
+              Landsking Infra works with clients in diverse industries around
+              the world to design, construct and maintain their capital projects
+            </p>
           </div>
 
           {/* Right Links Section */}
@@ -49,101 +36,91 @@ export default function FooterReal() {
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
               {/* Residential */}
               <div>
-                <h3 className="text-lg font-semibold mb-4">Residential</h3>
-                <ul className="space-y-2 text-gray-800 text-sm">
-                  <li>Brigade Plus</li>
-                  <li>Channel Partners</li>
-                  <li>Brigade Communities</li>
-                  <li>Delivered Projects</li>
-                  <li>Luxury Apartments</li>
-                  <li>3BHK Apartments</li>
-                  <li>New Launch</li>
+                <h3 className="text-lg font-semibold mb-4">Needs</h3>
+                <ul className="space-y-2 text-white text-sm font-[Lato]">
+                  <li>Invest, Finance & Value</li>
+                  <li>Plan, Lease & Occupy</li>
+                  <li>Manage Properties & Portfolios</li>
                 </ul>
               </div>
 
               {/* Commercial */}
               <div>
-                <h3 className="text-lg font-semibold mb-4">Commercial</h3>
-                <ul className="space-y-2 text-gray-800 text-sm">
-                  <li>Clients</li>
-                  <li>Inspire NXT</li>
-                  <li>Legacy Projects</li>
-                  <li>BuzzWorks</li>
-                  <li>Events</li>
-                  <li>Office Space for Lease</li>
-                  <li>Office Space for Sale</li>
+                <h3 className="text-lg  mb-4">Property-types</h3>
+                <ul className="space-y-2 text-white text-sm font-[Lato]">
+                  <li>Logistics & Industrial</li>
+                  <li>Retail</li>
+                  <li>Office</li>
+                  <li>Residential</li>
                 </ul>
               </div>
 
               {/* Retail */}
               <div>
-                <h3 className="text-lg font-semibold mb-4">Retail</h3>
-                <ul className="space-y-2 text-gray-800 text-sm">
-                  <li>Malls</li>
-                  <li>Mixed Use and Tech Parks</li>
-                  <li>Legacy Projects</li>
+                <h3 className="text-lg mb-4">Properties</h3>
+                <ul className="space-y-2 text-white text-sm font-[Lato]">
+                  <li>Properties for Lease</li>
+                  <li>Properties for Sale</li>
+                  <li>Investment Property For Sale</li>
                 </ul>
               </div>
 
               {/* Hospitality */}
               <div>
-                <h3 className="text-lg font-semibold mb-4">Hospitality</h3>
-                <ul className="space-y-2 text-gray-800 text-sm">
+                <h3 className="text-lg  mb-4">Hospitality</h3>
+                <ul className="space-y-2 text-white text-sm font-[Lato]">
                   <li>Partners</li>
                   <li>Brigade Hospitality</li>
                 </ul>
               </div>
             </div>
+          </div>
+        </div>
+        {/*  */}
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between border-b border-white/20 pb-6 mb-6">
+            <div className="flex items-center space-x-3  mt-5 mb-4 md:mb-0">
+              <span className="font-bold text-lg">Landsking Infra </span>
+            </div>
 
-            {/* Bottom Row - Responsive columns */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
-              <div>
-                <h3 className="text-lg font-semibold mb-4">
-                  Residential Projects
-                </h3>
-                <ul className="space-y-2 text-gray-800 text-sm">
-                  <li>Bengaluru</li>
-                  <li>Chennai</li>
-                  <li>Hyderabad</li>
-                  <li>Mysuru</li>
-                </ul>
-              </div>
+            <div className="flex space-x-4">
+              <Link href="#" aria-label="X">
+                <FaXTwitter className="text-xl hover:text-[#8080FF]" />
+              </Link>
+              <Link href="#" aria-label="LinkedIn">
+                <FaLinkedin className="text-xl hover:text-[#8080FF]" />
+              </Link>
+              <Link href="#" aria-label="YouTube">
+                <FaYoutube className="text-xl hover:text-[#8080FF]" />
+              </Link>
+              <Link href="#" aria-label="Facebook">
+                <FaFacebook className="text-xl hover:text-[#8080FF]" />
+              </Link>
+              <Link href="#" aria-label="Instagram">
+                <FaInstagram className="text-xl hover:text-[#8080FF]" />
+              </Link>
+            </div>
+          </div>
 
-              <div>
-                <h3 className="text-lg font-semibold mb-4">Foundation</h3>
-                <ul className="space-y-2 text-gray-800 text-sm">
-                  <li>IME Museum</li>
-                  <li>Education</li>
-                  <li>Health</li>
-                  <li>Community Development</li>
-                </ul>
-              </div>
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between text-sm space-y-4 md:space-y-0">
+            <div className="flex flex-wrap gap-x-6 gap-y-2">
+              <Link href="#" className="hover:underline">
+                Copyright & Terms
+              </Link>
+              <Link href="#" className="hover:underline">
+                Privacy
+              </Link>
 
-              <div>
-                <h3 className="text-lg font-semibold mb-4">About Us</h3>
-                <ul className="space-y-2 text-gray-800 text-sm">
-                  <li>Overview</li>
-                  <li>Founder&apos;s Message</li>
-                  <li>Board of Directors</li>
-                  <li>Brigade Journey</li>
-                  <li>Sustainability</li>
-                  <li>Certifications</li>
-                  <li>Brigade Insight</li>
-                </ul>
-              </div>
+              <a
+                href="mailto:info@LandskingInfra.com"
+                className="hover:underline"
+              >
+                landskinginfra@gmail.com
+              </a>
+            </div>
 
-              <div>
-                <h3 className="text-lg font-semibold mb-4">Other Links</h3>
-                <ul className="space-y-2 text-gray-800 text-sm">
-                  <li>MyKey</li>
-                  <li>Careers</li>
-                  <li>Blog</li>
-                  <li>Partner With Us</li>
-                  <li>Media Centre</li>
-                  <li>Investors</li>
-                  <li>Brigade REAP</li>
-                </ul>
-              </div>
+            <div className="text-gray-300">
+              © 2025 Landsking Infra Pvt. Limited. All Rights Reserved.
             </div>
           </div>
         </div>

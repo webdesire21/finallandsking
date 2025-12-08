@@ -50,7 +50,7 @@ export default function Rndcivil() {
             exit={{ opacity: 0, y: -40 }}
             transition={{ duration: 0.7 }}
           >
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6 drop-shadow-lg leading-snug">
+            <h1 className="text-2xl mt-12 sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6 drop-shadow-lg leading-snug">
               {activeSlide.title}
             </h1>
             <p className="text-sm sm:text-lg md:text-lg text-gray-200 mb-6 leading-relaxed drop-shadow-md">

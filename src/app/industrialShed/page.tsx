@@ -103,9 +103,9 @@ const IndustrialShed: React.FC = () => {
               </p>
               <p className="text-gray-700 mb-4 text-justify  md:text-lg">
                 With a reputation for reliability and innovation, Landsking
-                Infra Infra has rapidly become one of the fastest-growing
-                industrial shed manufacturers and suppliers in India, expertly
-                addressing the evolving needs of the construction sector.
+                Infra has rapidly become one of the fastest-growing industrial
+                shed manufacturers and suppliers in India, expertly addressing
+                the evolving needs of the construction sector.
               </p>
               <button
                 className="border text-[#000080] border-[#000080] px-6 py-2 hover:bg-[#000080] hover:text-white transition"

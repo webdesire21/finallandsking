@@ -148,7 +148,7 @@ const Glasswool: React.FC = () => {
                 Excellence Our Glasswool Sandwich Panels deliver a specialized
                 blend of high-level acoustic absorption and certified fire
                 resilience, critical for modern industrial operations. Landsking
-                Infra Infra deploys this rigid core solution to effectively
+                Infra deploys this rigid core solution to effectively
                 compartmentalize noise and guarantee the safety of sensitive
                 areas, ensuring operational continuity and compliance on all
                 major construction fronts.

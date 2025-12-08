@@ -325,8 +325,8 @@ export default function Residential() {
             </h1>
             <p className="text-sm sm:text-base md:text-lg max-w-md mx-auto md:mx-0">
               Get up to ₹1 Lakh in total savings — including exclusive Landsking
-              Infra Infra benefits and government subsidies. Power your home
-              with clean energy while reducing costs from day one.
+              Infra benefits and government subsidies. Power your home with
+              clean energy while reducing costs from day one.
             </p>
           </div>
 

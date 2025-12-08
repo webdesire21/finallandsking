@@ -39,12 +39,12 @@ export default function AccoladesSlider() {
   ];
 
   return (
-    <section className="bg-gray-50 py-10 relative md:py-15">
+    <section className="bg-gray-50 py-10 relative md:py-13">
       <h2 className="text-2xl md:text-3xl font-bold text-center text-[#000080] mb-12">
         Our Client Guarantees: Commitment to Certainty
       </h2>
 
-      <div className="relative pb-12">
+      <div className="relative ">
         <Swiper
           modules={[Autoplay, FreeMode, Pagination]}
           spaceBetween={20}

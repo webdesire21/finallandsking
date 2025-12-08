@@ -24,11 +24,11 @@ export default function AboutP() {
         }}
       >
         <div className=" text-white space-y-6 relative z-10">
-          <h1 className="text-xl md:text-[25px] font-semibold  text-justify ">
+          <h2 className="text-xl md:text-[25px] font-semibold    ">
             &quot;Landsking Infra works with clients in diverse industries
             around the world to design, construct and maintain their capital
             projects&quot;
-          </h1>
+          </h2>
 
           <p className="text-[15px] md:text-[16px] font-[500px] text-white text-justify">
             Landsking Infra is one of India’s fastest growing companies as an

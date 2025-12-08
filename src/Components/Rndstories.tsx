@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 const STORIES = [
   {
     id: 1,
-    title: "End to End Engineering and Electrification Solution for IHM",
+    title: "End-to-End Engineering and Electrification Solution for IHM",
     Subtitle:
       "Our comprehensive engineering and electrification services—from concept design to off-road deployment—enable Industrial Heavy Machinery (IHM) manufacturers to develop and bring competitive electric vehicles to market more quickly.",
     img: "/successStory/product.jpg",
@@ -23,15 +23,15 @@ const STORIES = [
     id: 3,
     title: "Embedded Engineering Solutions",
     Subtitle:
-      "Our embedded engineering solutions span the full V-cycle of product software development, encompassing application-level development—including MBD, SIL, MIL, and HIL—and platform software such as AUTOSAR, SDV, and custom platforms, all reinforced by our strong mechatronics expertise.",
+      "Our embedded engineering solutions span the full V-cycle of product software development, encompassing application-level development—including MBD, SIL, MIL, and HIL—and platform software such as AUTOSAR, SDV, and custom platforms all reinforced by our strong mechatronics expertise.",
     img: "/rndimages/Design and Engineering.jpg",
     url: "/success/fast-turnaround",
   },
   {
     id: 4,
-    title: "Model-based Systems Engineering Solutions",
+    title: "Model-based Systems ",
     Subtitle:
-      "Our Model-based Systems Engineering (MBSE) solution helps organizations connect physical and digital product designs, delivering enhanced visibility, connectivity, and traceability throughout the entire system lifecycle",
+      "Our Model-based Systems & Engineering (MBSE) solution helps organizations connect physical and digital product designs, delivering enhanced visibility, connectivity, and traceability throughout the entire system lifecycle",
     img: "/successStory/modelbased.jpg",
     url: "/success/cabin-design",
   },

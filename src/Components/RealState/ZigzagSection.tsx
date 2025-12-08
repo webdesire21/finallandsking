@@ -17,9 +17,9 @@ const ZigzagSection: FC = () => {
             <h2 className="text-lg md:text-xl font-black tracking-wide text-[#000080] text-center">
               RESIDENTIAL PROJECTS
             </h2>
-            <button className="text-sm px-4 py-2 border-2 border-[#000080] text-[#000080] font-semibold flex items-center gap-2 hover:bg-black hover:text-white transition">
+            {/* <button className="text-sm px-4 py-2 border-2 border-[#000080] text-[#000080] font-semibold flex items-center gap-2 hover:bg-black hover:text-white transition">
               View Projects <span className="text-[#8080FF]">→</span>
-            </button>
+            </button> */}
           </div>
 
           <img
@@ -40,9 +40,9 @@ const ZigzagSection: FC = () => {
             <h2 className="text-lg md:text-xl font-black tracking-wide text-[#000080] text-center">
               COMMERCIAL PROJECTS
             </h2>
-            <button className="text-sm px-4 py-2 border-2 border-[#000080] text-[#000080] font-semibold flex items-center gap-2 hover:bg-black hover:text-white transition">
+            {/* <button className="text-sm px-4 py-2 border-2 border-[#000080] text-[#000080] font-semibold flex items-center gap-2 hover:bg-black hover:text-white transition">
               View Projects <span className="text-[#8080FF]">→</span>
-            </button>
+            </button> */}
           </div>
 
           <img

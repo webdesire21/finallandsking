@@ -56,19 +56,19 @@ export default function Rnd() {
       title: "Engineering Services",
       desc: "Providing innovative and sustainable engineering solutions tailored to modern real estate and infrastructure challenges.",
       video: "/video/engineer.mp4",
-      link: "/civil-engineering",
+      link: "/service/civil-engineering",
     },
     {
       title: "Mechanical Service",
       desc: "Empowering industries with precision-driven mechanical design, fabrication, and automation solutions using cutting-edge technologies.",
       video: "/video/mechenical.mp4",
-      link: "/mechanical",
+      link: "/service/mechanical",
     },
     {
       title: "CAE Simulation",
       desc: "Enhancing product performance and reliability through advanced computer-aided engineering simulations and virtual testing.",
       video: "/video/cae.mp4",
-      link: "/cae-simulation",
+      link: "/service/cae-simulation",
     },
     {
       title: "Product Engineering",

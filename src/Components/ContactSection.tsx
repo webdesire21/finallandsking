@@ -50,7 +50,7 @@ export default function ContactSection() {
           <div className="h-1 w-[100%] bg-[#8080FF] mb-4"></div>
           <p className="mb-6 text-gray-200">
             Whether you need a basic or elaborate steel building, Landsking
-            Infra Infra will ensure your project is designed, manufactured, and
+            Infra will ensure your project is designed, manufactured, and
             delivered on time.
           </p>
           <a href="/contact">

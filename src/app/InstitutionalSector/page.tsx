@@ -85,23 +85,23 @@ export default function IndustrialBuildingsConstruction() {
             <div>
               <div className="flex items-center mb-4">
                 <h2 className="text-2xl md:text-3xl font-bold text-[#000080]">
-                  PEB Institutional Sector
+                  Institutional PEB Sector{" "}
                 </h2>
               </div>
               <p className="text-gray-700 text-justify mb-4  md:text-lg">
-                Stand out from the competition with cutting-edge and visually
-                appealing Pre-Engineered Institutional Building Solutions from
-                Landsking Infra.
+                Stand out with modern, visually appealing, and innovative
+                Pre-Engineered Institutional Building solutions from Landsking
+                Infra.
               </p>
               <p className="text-gray-700 text-justify mb-4  md:text-lg">
-                Our comprehensive range of structures delivers unmatched
-                strength, durability, and elegance. We serve a wide array of
-                sectors, including large-scale Pre-Engineered School Buildings,
-                Hostel Complexes, Hospitals, Office Facilities, Exhibition
-                Halls, and more. At Landsking Infra, we collaborate closely with
-                you to develop designs that strike the perfect balance of space,
-                functionality, and flexibility—tailored to meet your
-                institutional and commercial needs.
+                Our comprehensive range of structures offers exceptional
+                strength, durability, and aesthetic appeal. We cater to a wide
+                range of sectors, including large-scale pre-engineered school
+                buildings, hostel complexes, hospitals, office facilities,
+                exhibition halls, and more. At Landsking Infra, we work closely
+                with you to create designs that balance space, functionality,
+                and flexibility—fully tailored to your institutional and
+                commercial requirements.
               </p>
 
               <div className="flex items-center gap-4">
@@ -133,19 +133,19 @@ export default function IndustrialBuildingsConstruction() {
               image="/sectorimg/h.jpg"
               icon={<FaWarehouse size={38} className="text-white" />}
               title="Prefab School"
-              description="Landsking Infra provides sustainable and cost-effective prefab solutions for schools and healthcare centers. These modular buildings are designed for rapid installation, adaptability, and energy efficiency, making them ideal for educational and medical infrastructure. With customizable layouts and durable construction, our solutions ensure functionality, safety, and comfort to meet diverse institutional needs."
+              description="Landsking Infra provides sustainable and cost-effective prefab solutions for schools and healthcare facilities. These modular buildings are designed for rapid installation, adaptability, and energy efficiency, making them ideal for educational and medical infrastructure. With customizable layouts and durable construction, our solutions ensure functionality, safety, and comfort to meet diverse institutional needs."
             />
             <Card
               image="/sectorimg/inf.jpeg"
               icon={<MdOutlineCleanHands size={38} className="text-white" />}
-              title="Prefabricated Multi-Storey Building Manufacturer"
+              title="Prefabricated Multi-Storey Building "
               description="Landsking Infra’s multi-storey buildings are designed to provide exceptional strength, fast construction timelines, and cost-effective solutions. Perfect for commercial and residential projects, these buildings maximize space utilization while ensuring long-term value and reduced construction time."
             />
             <Card
               image="/sectorimg/hos.jpg"
               icon={<FaIndustry size={38} className="text-white" />}
               title="Prefabricated Hospital"
-              description="Landsking Infra is a pioneer in the manufacturing and installation of prefabricated structures, including staff accommodations, worker housing, labor hutments, and more."
+              description="Landsking Infra is a pioneer in manufacturing and installing prefabricated structures such as staff accommodations, worker housing, labour hutments, and more. "
             />
             <Card
               image="/sectorimg/roomm.jpg"
@@ -171,15 +171,16 @@ export default function IndustrialBuildingsConstruction() {
         <div className="w-12 h-[2px]  mx-auto mt-0 mb-6 relative"></div>
         <p className="text-gray-700  text-left md:text-center text-base md:text-lg max-w-4xl mx-auto leading-relaxed">
           Pre-engineered building technology has gained widespread recognition
-          globally. Over time, more and more industries in India are adopting
-          this modern technology, which is rapidly becoming mainstream in the
-          countrys construction sector. This trend is important because
-          pre-engineered structures offer the most innovative and efficient
-          methods to complete construction projects in an energy-saving way.
-          They are cost-effective and can speed up construction by approximately
-          50% compared to traditional methods. Like any other industry, the
-          construction sector has strict deadlines to meet, which is why
-          pre-engineered buildings are becoming increasingly popular.
+          worldwide, and an increasing number of industries in India are
+          adopting this modern approach. It is rapidly becoming a mainstream
+          solution in the country’s construction sector due to its efficiency
+          and technological advantages. Pre-engineered structures offer
+          innovative, energy-efficient, and highly effective methods for
+          executing construction projects. They are cost-efficient and can
+          accelerate project timelines by up to 50% compared to traditional
+          construction techniques. As the construction sector operates under
+          strict deadlines, pre-engineered buildings are emerging as a preferred
+          choice for industries seeking speed, reliability, and long-term value.
         </p>
       </section>
 

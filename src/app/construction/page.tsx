@@ -80,18 +80,19 @@ export default function Construction() {
               <p className="text-gray-700 mb-4 text-justify md:text-lg">
                 Landsking Infra has successfully delivered numerous
                 infrastructure solutions for the construction sector, including
-                worker accommodations, canteens, site offices, and more. Over
-                the years, we have supported construction companies of all sizes
-                with reliable and efficient prefab solutions.
+                With more than 7 years of expertise , canteens, site offices,
+                and more. Over the years, we have supported construction
+                companies of all sizes with reliable and efficient prefab
+                solutions.
               </p>
               <p className="text-gray-700 mb-4 text-justify  md:text-lg">
                 With over 7 years of expertise in the prefabricated building
-                industry, Landsking Infra specializes not only in site
-                infrastructure but also in custom-designed warehouses, factory
-                buildings, industrial sheds, poultry farms, cold storage units,
-                clean rooms, and a wide range of other prefab structures. All
-                our solutions are built to international quality standards and
-                are widely recognized for their durability and performance.
+                industry, Landsking Infra specializes in site infrastructure as
+                well as custom-designed warehouses, factory buildings,
+                industrial sheds, poultry farms, cold storage units, cleanrooms
+                , and various other prefabricated structures. . All our
+                solutions are built to international quality standards and are
+                widely recognized for their durability and performance.
               </p>
 
               <div className="flex items-center gap-4">
@@ -124,21 +125,21 @@ export default function Construction() {
               icon={<FaWarehouse size={38} className="text-white" />}
               title="Prefab Site Office"
               link="/prefabSiteOffice"
-              description="Landsking Infra offers a wide range of modular prefabricated site office solutions, featuring options like PUF-insulated panels, EPS-insulated panels, and Light Gauge Steel Framing (LGSF). These office units are engineered for quick installation and built to last, making them perfectly suited for use on construction sites and industrial projects."
+              description="Landsking Infra offers a wide range of modular prefabricated site office solutions, featuring PUF-insulated panels, EPS-insulated panels, and Light Gauge Steel Framing (LGSF). These office units are engineered for quick installation and built to last, making them perfectly suited for use on construction sites and industrial projects."
             />
             <Card
               image="/sectorimg/lg.jpeg"
               icon={<MdOutlineCleanHands size={38} className="text-white" />}
               title="Light Gauge Steel Framing"
               link="/lightguage"
-              description="Light steel structures ideal for both residential and commercial projects, providing flexible design options and fast construction timelines."
+              description="Light steel structures that are ideal for both residential and commercial projects , providing flexible design options and fast construction timelines."
             />
             <Card
               image="/imagesall/lh.jpeg"
               icon={<FaIndustry size={38} className="text-white" />}
-              title="Labor Hutment"
-              link="/laborHutment"
-              description="Landsking Infra delivers affordable and long-lasting prefabricated labour accommodations, ideal for rapid deployment at construction sites and industrial locations. Built using insulated panels, these modular units ensure a safe and comfortable environment for workers, while also being easy to transport and assemble."
+              title="Labour Hutment"
+              link="/labourHutment"
+              description="Landsking Infra delivers affordable and long-lasting prefabricated labour accommodations units, ideal for rapid deployment at construction sites and industrial locations. Constructed using insulated panels , these modular units ensure a safe and comfortable environment for workers, while also being easy to transport and assemble."
             />
             <Card
               image="/sectorimg/pt.jpg"
@@ -165,19 +166,16 @@ export default function Construction() {
         </h2>
         <div className="w-12 h-[2px]  mx-auto mt-3 mb-6 relative"></div>
         <p className="text-gray-700   text-left md:text-center text-base md:text-lg max-w-4xl mx-auto leading-relaxed">
-          The{" "}
-          <span className="text-[#000080] font-semibold">
-            pre engineered building
-          </span>{" "}
-          has gained widespread recognition globally. Over time, a growing
-          number of industries in India are adopting this innovative approach,
-          which is transforming the entire construction sector in the country.
-          This is important because pre-engineered structures offer some of the
-          most advanced and efficient methods for completing construction
-          projects. They are cost-effective and can speed up the building
-          process by up to 50% compared to traditional methods. Like any other
-          industry, construction has strict deadlines, which is why
-          pre-engineered buildings are becoming increasingly popular.
+          The pre engineered building has gained widespread recognition
+          globally. Over time, a growing number of industries in India are
+          adopting this innovative approach, which is transforming the entire
+          construction sector in the country. This is important because
+          pre-engineered structures offer some of the most advanced and
+          efficient methods for completing construction projects. They are
+          cost-effective and can speed up the building process by up to 50%
+          compared to traditional methods. Like any other industry, construction
+          has strict deadlines, which is why pre-engineered buildings are
+          becoming increasingly popular.
         </p>
       </section>
 

@@ -92,14 +92,8 @@ export default function Rndexplore() {
       {/* Company Intro Section */}
       <section className="w-full bg-white py-6 md:py-9 px-4 sm:px-8 md:px-14">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-10">
-            <h2 className="text-2xl md:text-3xl font-bold leading-snug max-w-4xl mx-auto">
-              Precision CFD & CAE Services
-            </h2>
-          </div>
-
           <div className="grid lg:grid-cols-2 gap-8 items-center">
-            <div className="relative w-full h-64 sm:h-80 md:h-[450px]">
+            <div className="relative w-full h-64 sm:h-80 md:h-[420px]">
               <Image
                 src="/rnd/cad.jpeg"
                 alt=" Precision CFD & CAE Services
@@ -109,18 +103,23 @@ export default function Rndexplore() {
               />
             </div>
             <div>
-              <p className="text-gray-700 mb-4 text-sm sm:text-base">
+              <h2 className="text-2xl mb-2  text-[#000080] md:text-3xl font-bold ">
+                Precision Engineering Simulation{" "}
+              </h2>
+              <p className="text-gray-600 mb-2 text-sm sm:text-base">
                 Harness the combined power of Computational Fluid Dynamics (CFD)
                 and Computer-Aided Engineering (CAE) to simulate, analyze, and
-                refine designs long before physical prototypes exist. By
-                creating a digital twin of real-world conditions, engineers can
-                visualize performance, reduce trial-and-error, and unlock
+                refine designs long before physical prototypes exist.
+              </p>
+              <p className="text-gray-600 mb-4 text-sm sm:text-base">
+                {" "}
+                By simulating real-world conditions digitally, engineers can
+                visualize performance, reduce trial-and-error, and enable
                 smarter product development. From fluid flow and heat transfer
-                to structural durability and system behavior, CFD and CAE enable
-                manufacturers to predict outcomes, minimize risks, and cut down
+                to structural durability and system behavior, CFD and CAE help
+                manufacturers predict outcomes, minimize risks, and lower
                 production costs—all while accelerating time-to-market.
               </p>
-
               <div className="flex items-center gap-4">
                 <button
                   className="border text-[#000080] border-[#000080] px-6 py-2 hover:bg-[#000080] hover:text-white transition"
@@ -139,7 +138,7 @@ export default function Rndexplore() {
         <section className="  py-5 md:py-8 px-4 sm:px-6 md:px-12">
           <div className="text-center mb-10">
             <h2 className="text-2xl text-[#000080] md:text-3xl font-bold leading-snug max-w-4xl mx-auto mb-5">
-              Advanced CAE Services
+              Advanced CAE Service Capabilities
             </h2>
           </div>
 
@@ -149,7 +148,7 @@ export default function Rndexplore() {
               image="/cad/static.jpg"
               icon={<FaCogs size={38} className="text-white" />}
               title="Static Structural Analysis"
-              description="Evaluates the response of components under steady forces, loads, and constraints. Identifies high-stress regions and ensures compliance with safety standards."
+              description="Evaluates how components behave under constant or steady loads, identifying stress concentrations and ensuring they meet safety and performance requirements"
             />
             <Card
               image="/cadservice/explt.png"
@@ -271,16 +270,28 @@ export default function Rndexplore() {
 
       {/* Info Section */}
       <section className="bg-gray-50 py-16 px-4 sm:px-8 md:px-16 text-center ">
-        <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold tracking-wide text-black uppercase">
+        <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold tracking-wide text-[#000080] uppercase">
           Driving Innovation with Advanced Engineering Solutions
         </h2>
-        <div className="w-12 h-[1px]  mx-auto mt-2 mb-6 relative"></div>
+
+        <div className="w-12 h-[1px] mx-auto mt-2 mb-6 relative"></div>
+
         <p className="text-gray-700 text-sm sm:text-base md:text-lg max-w-4xl mx-auto leading-relaxed">
           Transform ideas into reality with our cutting-edge CFD and CAE
           expertise. From performance validation to thermal and structural
           optimization, we deliver precise simulations that enhance efficiency,
           reliability, and innovation across every stage of product development.
         </p>
+
+        {/* Centered Button */}
+        <div className="flex items-center justify-center gap-4 mt-6">
+          <button
+            className="border rounded-md text-[#000080] border-[#000080] px-6 py-2 hover:bg-[#000080] hover:text-white transition"
+            onClick={() => (window.location.href = "/rnd-contact")}
+          >
+            Get Started
+          </button>
+        </div>
       </section>
 
       <Rndfooter />

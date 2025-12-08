@@ -34,7 +34,7 @@ function Card({ image, icon, title, description }: CardProps) {
         <h3 className="text-lg sm:text-xl font-bold tracking-wide mb-3">
           {title}
         </h3>
-        <p className="text-gray-600 text-justify text-sm sm:text-base tracking-wide mb-5 flex-1">
+        <p className="text-gray-600  text-sm sm:text-base tracking-wide mb-5 flex-1">
           {description}
         </p>
       </div>
@@ -87,31 +87,30 @@ export default function IndustrialBuildingsConstruction() {
               <p className="text-gray-600  text-justify mb-4  md:text-lg">
                 We specialize in the design and manufacturing of versatile
                 prefabricated structures, including K-houses, liftable porta
-                cabins, Mi Homes, control pulpits, and soundproof enclosures.
-                With over 25 years of experience in prefabrication, we deliver
-                durable, industry-compliant solutions tailored to a wide range
-                of applications.
+                cabins, Modular Integrated Home, operator pulpits, and
+                soundproof enclosures. With over 25 years of experience in
+                prefabrication, we deliver durable, industry-compliant solutions
+                tailored to a wide range of applications.
               </p>
               <p className="text-gray-700 text-justify mb-4  md:text-lg">
-                Our capabilities go beyond special structures — offering
+                Our capabilities go beyond special structures, offering
                 high-quality prefabricated warehouses, factory buildings,
                 industrial sheds, poultry shelters, cold storage units, and
-                clean rooms. Every structure is engineered for efficiency,
+                clean rooms. Each structure is engineered to deliver efficiency,
                 sustainability, and long-term performance.
               </p>
-
-              <div className="flex items-center gap-3 sm:gap-4">
+              {/* <div className="flex items-center gap-4">
                 <Link href="/peb-contact">
-                  <button className="border text-[#000080] border-blue-900 px-4 sm:px-6 py-2 text-sm sm:text-base hover:bg-[#000080] hover:text-white transition">
+                  <button className="border border-[#000080] px-6 py-2 font-semibold hover:bg-[#000080] hover:text-white transition-colors">
                     GET A QUOTE
                   </button>
                 </Link>
-              </div>
+              </div> */}
             </div>
 
             <div className="relative w-full h-60 sm:h-72 md:h-[450px]">
               <Image
-                src="/sectorimg/ste.webp"
+                src="/product/s5.jpg"
                 alt="special Building"
                 fill
                 className="object-cover rounded-lg shadow-lg"
@@ -129,19 +128,19 @@ export default function IndustrialBuildingsConstruction() {
               image="/sectorimg/control.jpg"
               icon={<FaWarehouse size={34} className="text-white" />}
               title="Control Room"
-              description="We offer durable, customizable control pulpits engineered for efficient performance in industrial settings. Built using high-quality materials, these units prioritize operator safety, ease of use, and reliable functionality — making them ideal for a wide range of control and monitoring applications."
+              description="We offer durable, customizable operator pulpits engineered for efficient performance in industrial settings. Built using high-quality materials, these units prioritize operator safety, ease of use, and reliable functionality making them ideal for a wide range of control and monitoring applications."
             />
             <Card
               image="/sectorimg/cabinn.webp"
               icon={<FaWarehouse size={34} className="text-white" />}
-              title="Prefab Porta Cabins Manufacturer"
+              title="Prefab Porta Cabins "
               description="We manufacture high-quality, customizable porta cabins designed to meet diverse space and functional requirements. These portable units are perfect for construction sites, temporary offices, and on-site facilities, offering excellent durability, quick installation, and reliable convenience."
             />
             <Card
               image="/sectorimg/acoustic.jpg"
               icon={<FaWarehouse size={34} className="text-white" />}
               title="Acoustic Enclosure"
-              description="We offer advanced acoustic enclosures specifically designed to reduce industrial noise and enhance workplace comfort. Engineered with high-performance sound-absorbing panels, these enclosures help create quieter environments around machinery and equipment. Ideal for a variety of industries, they support noise compliance standards while boosting employee focus and productivity."
+              description="We offer advanced acoustic enclosures specifically designed to reduce industrial noise and enhance workplace comfort. Engineered with high-performance sound-absorbing panels, these enclosures help control noise around industrial machinery and equipment . Ideal for a variety of industries, they ensure compliance with industrial noise regulations.  standards while boosting employee focus and productivity."
             />
             <Card
               image="/sectorimg/khouse.jpg"
@@ -152,14 +151,17 @@ export default function IndustrialBuildingsConstruction() {
             <Card
               image="/sectorimg/mi.jpg"
               icon={<FaWarehouse size={34} className="text-white" />}
-              title="Mi Homes"
-              description="MI Homes are modern, sustainable, and cost-effective modular housing solutions designed for rapid installation and long-lasting performance. Perfect for residential, commercial, and emergency use, these homes provide comfortable living spaces equipped with contemporary amenities."
+              title="MI Homes"
+              description="MI Homes are modern, sustainable, and cost-effective modular housing solutions designed for rapid installation and long-lasting performance. 
+Ideal for residential, commercial, and emergency applications feature an easy-to-operate lifting mechanism 
+
+"
             />
             <Card
               image="/sectorimg/liftable.jpeg"
               icon={<FaWarehouse size={34} className="text-white" />}
               title="Liftable Cabin"
-              description="Liftable cabins offer a practical and flexible solution for a wide range of temporary or portable space requirements. Designed with mobility in mind, these units feature an easy lifting mechanism that ensures quick relocation without sacrificing comfort or functionality."
+              description="Liftable cabins offer a practical and flexible solution for a wide range of temporary or portable space requirements. Designed with mobility in mind, these units feature an easy lifting mechanism that ensures quick relocation can be strengthened to avoid repetitive phrasing."
             />
           </div>
         </section>
@@ -172,9 +174,10 @@ export default function IndustrialBuildingsConstruction() {
         </h2>
         <div className="w-12 h-[2px]  mx-auto mt-0 mb-6 relative"></div>
         <p className="text-gray-700  text-left md:text-center text-base md:text-lg max-w-4xl mx-auto leading-relaxed">
-          Our team is professionally trained to deliver quality and excellence,
-          proficient at every stage of the manufacturing process—from gathering
-          requirements to production and installation.
+          Our team is professionally trained to deliver consistent quality and
+          excellence skilled across every stage of the manufacturing
+          process—from requirement analysis to production and final
+          installation.
         </p>
       </section>
 

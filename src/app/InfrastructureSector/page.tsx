@@ -88,25 +88,21 @@ export default function InfrastructureSector() {
                 </h2>
               </div>
               <p className="text-gray-700 mb-4 text-justify">
-                Landsking Infra delivers sturdy and cost-efficient
-                <span className="text-[#000080] font-semibold">
-                  {" "}
-                  Pre-Engineered Buildings (PEBs)
-                </span>{" "}
-                tailored to the specific needs of the infrastructure sector.
-                Built using high tensile 350 MPA steel, our PEBs offer
-                exceptional durability and operational efficiency, making them
-                ideal for applications across airports, railways, and various
-                industrial facilities.
+                Landsking Infra delivers sturdy and cost-effective
+                Pre-Engineered Buildings (PEBs) tailored to the specific needs
+                of the infrastructure sector. Built using high-tensile 350 MPa
+                steel , our PEBs offer exceptional durability and operational
+                efficiency, making them ideal for applications in airports,
+                railways, and a range of industrial facilities.
               </p>
               <p className="text-gray-700 mb-4 text-justify">
-                Landsking Infra offers flexible, custom-designed Pre-Engineered
-                Buildings tailored to exact specifications, ensuring optimal
-                functionality for diverse applications. Our structures are
+                Landsking Infra also provides flexible, custom-designed PEBs
+                tailored to exact specifications, ensuring optimal performance
+                across multiple applications. Our structures are
                 energy-efficient and lightweight, with options for mezzanine
                 floors, EOT cranes, canopies, and more. By integrating advanced
-                technology with innovative design, we deliver reliable solutions
-                that effectively support large-scale infrastructure projects.
+                technology with innovative design, we deliverreliable solutions
+                that support large-scale infrastructure projects.
               </p>
               <div className="flex items-center gap-4">
                 <Link href="/peb-contact">
@@ -137,19 +133,19 @@ export default function InfrastructureSector() {
               image="/imagesall/railway.jpeg"
               icon={<FaWarehouse size={32} className="text-white" />}
               title="Railway Shelters"
-              description="Durable railway and telecom shelters, built to endure harsh conditions. Quick installation, low maintenance, and long-lasting reliability."
+              description="Durable railway and telecom shelters designed to withstand harsh conditions. They offer quick installation, low maintenance, and long-lasting reliability."
             />
             <Card
               image="/sectorimg/inf.jpeg"
               icon={<MdOutlineCleanHands size={32} className="text-white" />}
-              title="Prefabricated Multi-Storey Buildings"
-              description="Designed for superior strength and cost-effectiveness, suitable for commercial and residential projects."
+              title=" Multi-Storey Buildings"
+              description="These structures are designed for superior strength and cost-effectiveness, making them suitable for both commercial and residential projects"
             />
             <Card
               image="/sectorimg/airport.jpg"
               icon={<FaIndustry size={32} className="text-white" />}
               title="Airport Terminal Buildings"
-              description="Prefabricated structures for staff accommodations, worker housing, and more."
+              description="These prefabricated structures are ideal for staff accommodations, worker housing, and more. "
             />
           </div>
         </section>
@@ -158,16 +154,15 @@ export default function InfrastructureSector() {
       {/* Info Section */}
       <section className="bg-gray-50  py-10 md:py-16 px-6 md:px-16 ">
         <h2 className="text-2xl text-center md:text-3xl font-extrabold tracking-wide text-[#000080] uppercase">
-          Buildings custom-designed to suit your unique needs
+          Custom-designed buildings tailored to your specific needs{" "}
         </h2>
         <div className="w-12 h-[2px]  mx-auto mt-1 mb-6 relative"></div>
         <p className="text-gray-700  text-left md:text-center text-base md:text-lg max-w-4xl mx-auto leading-relaxed">
-          <span className="text-[#000080] font-semibold">
-            Pre-Engineered Buildings (PEBs)
-          </span>{" "}
-          can be customized with mezzanine floors, partitions, cranes, canopies,
-          and more. These structures are ideal for airport terminals, hangars,
-          industrial facilities, railway station buildings, and more.
+          Pre-Engineered Buildings (PEBs) can be customized with mezzanine
+          floors, partitions, cranes, canopies, and various other structural
+          features.These structures are ideal for airport terminals, aircraft
+          hangars, industrial facilities, railway station buildings, and other
+          large-scale applications
         </p>
       </section>
 

@@ -69,7 +69,7 @@ const Warehouse: React.FC = () => {
             <div>
               <h2 className="md:text-3xl font-bold mb-4 text-[#000080] text-2xl">
                 Pre-fabricated Warehouse and Storage Solutions by Landsking
-                Infra Infra.
+                Infra.
               </h2>
               <p className="text-gray-600 text-justify mb-1  md:text-lg">
                 Boost your industrial storage and logistics efficiency with

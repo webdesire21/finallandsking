@@ -19,24 +19,31 @@ export default function Brand() {
     "/Muncipal corporation.jpeg",
   ];
 
+  const getAltText = (path: string) => {
+    return path
+      .split("/")
+      .pop()
+      ?.split(".")[0]
+      .replace(/-/g, " ")
+      .replace(/_/g, " ")
+      .trim();
+  };
+
   const renderRow = (reverse: boolean) => (
     <Swiper
       modules={[Autoplay, FreeMode]}
       spaceBetween={20}
       slidesPerView={2}
       loop={true}
-      freeMode={{
-        enabled: true,
-        momentum: false, // stops sudden pauses
-      }}
+      freeMode={{ enabled: true, momentum: false }}
       autoplay={{
-        delay: 0, // no delay (continuous scroll)
+        delay: 0,
         disableOnInteraction: false,
         pauseOnMouseEnter: false,
         reverseDirection: reverse,
       }}
-      speed={6000} // higher speed = smoother continuous scroll
-      allowTouchMove={false} // disable manual swipe for smooth autoplay
+      speed={6000}
+      allowTouchMove={false}
       breakpoints={{
         320: { slidesPerView: 2, spaceBetween: 20 },
         640: { slidesPerView: 3, spaceBetween: 15 },
@@ -49,7 +56,7 @@ export default function Brand() {
           <div className="bg-white border border-gray-200 shadow-sm rounded-lg flex items-center justify-center h-35 w-full p-2">
             <img
               src={src}
-              alt={`Brand ${i + 1}`}
+              alt={getAltText(src)}
               loading="lazy"
               className="h-20 w-full object-contain md:h-28"
             />

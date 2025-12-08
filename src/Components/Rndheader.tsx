@@ -51,10 +51,10 @@ const Rndheader = () => {
         {
           title: "",
           items: [
-            { label: "CAD / CAM / CAE Services", href: "/cadservices" },
+            { label: "CAD Services", href: "/cadservices" },
             { label: "Product Engineering", href: "/productengineering" },
             {
-              label: "Simulation Design for Manufacturing",
+              label: "Simulation Design For Manufacturing",
               href: "/rndsimulation",
             },
           ],
