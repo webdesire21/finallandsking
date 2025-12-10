@@ -3,7 +3,7 @@ import mongoose, { Schema, model, models } from "mongoose";
 const AdminUserSchema = new Schema(
   {
     email: { type: String, unique: true },
-    password: { type: String, required: true }, // hashed
+    password: { type: String, required: true },
     name: { type: String },
   },
   { timestamps: true }

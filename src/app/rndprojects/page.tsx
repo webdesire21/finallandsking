@@ -28,12 +28,7 @@ const projects: Project[] = [
     location: "Baba Warehouse, Pipariya",
     category: "Commercial Building",
   },
-  {
-    id: 3,
-    img: "/new1.png",
-    location: "Maa Narmada Ware House, Pipriya",
-    category: "Government & PSUs",
-  },
+
   {
     id: 4,
     img: "/industry.jpg",

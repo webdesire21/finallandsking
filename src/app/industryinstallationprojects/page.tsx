@@ -39,12 +39,7 @@ const projects: Project[] = [
     location: "Devisingh Patel Ware House, Raisen",
     category: "Factory Buildings",
   },
-  {
-    id: 5,
-    img: "/industry.jpg",
-    location: "Maa Narmada Ware House, Pipriya",
-    category: "Commercial Building",
-  },
+
   {
     id: 6,
     img: "/industry.jpg",

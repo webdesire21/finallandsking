@@ -65,7 +65,7 @@ export default function Transportmobility() {
         >
           <div className="text-white text-center relative z-10">
             <h1 className="text-3xl md:text-5xl font-bold leading-snug tracking-wide">
-              Transport Mobility{" "}
+              Transport & Mobility{" "}
             </h1>
           </div>
         </div>
@@ -76,7 +76,7 @@ export default function Transportmobility() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h1 className="text-2xl text-[#000080] md:text-4xl font-bold leading-snug max-w-4xl mx-auto">
-              Transport Mobility{" "}
+              Transport & Mobility{" "}
             </h1>
           </div>
 

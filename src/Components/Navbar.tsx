@@ -42,9 +42,9 @@ const expertiseData: {
       },
 
       {
-        name: "Fire & Saftey",
+        name: "Fire & Safety ",
         image: "/industry/fire safety.jpg",
-        url: "/businessAreas/fire-saftey",
+        url: "/businessAreas/fire-safety ",
       },
     ],
   },

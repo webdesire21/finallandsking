@@ -309,7 +309,7 @@ export default function Industriestherindustries() {
           </div>
 
           {/* Slider */}
-          <div className="w-full relative order-2 mt-10 md:mt-0 flex justify-center md:justify-end">
+          <div className="w-full relative order-2 mt-10 md:mt-20 flex justify-center md:justify-end">
             <Swiper
               modules={[Navigation, Pagination, Autoplay]}
               spaceBetween={20}
@@ -355,7 +355,7 @@ export default function Industriestherindustries() {
               Other Industries
             </h2>
 
-            <p className="text-gray-700 text-justify mb-4 leading-relaxed mt-3">
+            <p className="text-gray-600 text-justify mb-4 leading-relaxed mt-3">
               It is extremely important for CAD architects to understand the
               concept of building design for public infrastructure. Equally
               necessary is the alignment of such professionals with service
@@ -365,20 +365,20 @@ export default function Industriestherindustries() {
               and works across a wide range of construction projects, including
             </p>
 
-            <p className="text-gray-700 mb-4 text-justify leading-relaxed">
-              <span className="font-bold">Landsking Infra pvt.ltd</span> A
-              Commercial and High-Rise Buildings,Production Facilities,Data
-              Centres,Health and Educational Constructions,Industrial and
-              Distribution Facilities.When our specialists are entrusted with
-              designing a new facility, they focus on intricate details and
-              specifications according to construction plans. Our engineers are
-              adept at classifying critical processes, raw materials, resources,
-              and value supply chains to create appropriate digital models of
-              proposed buildings. As digitization is essential, we leverage the
-              latest CAD software to generate multifaceted BIM (Building
-              Information Modeling) apparatus. Our experience across industries
-              assists clients in visualizing the final structure through
-              automated 2D and 3D CAD drawings.
+            <p className="text-gray-600 mb-4 text-justify leading-relaxed capitalize">
+              Landsking Infra a Commercial and High-Rise Buildings,Production
+              Facilities,Data Centres,Health and Educational
+              Constructions,Industrial and Distribution Facilities.When our
+              specialists are entrusted with designing a new facility, they
+              focus on intricate details and specifications according to
+              construction plans. Our engineers are adept at classifying
+              critical processes, raw materials, resources, and value supply
+              chains to create appropriate digital models of proposed buildings.
+              As digitization is essential, we leverage the latest CAD software
+              to generate multifaceted BIM (Building Information Modelling)
+              apparatus. Our experience across industries assists clients in
+              visualizing the final structure through automated 2D and 3D CAD
+              drawings.
             </p>
 
             <Link href="/industrycontact">
@@ -497,7 +497,7 @@ export default function Industriestherindustries() {
                 <h3 className="text-2xl font-semibold text-[#000080] mb-3">
                   {selectedArea.subtitle}
                 </h3>
-                <p className="text-gray-700 mb-5 text-justify">
+                <p className="text-gray-600 mb-5 text-justify">
                   {selectedArea.description}
                 </p>
                 <button className="flex items-center text-md md:text-xl gap-2 text-[#000080] font-semibold">
@@ -542,11 +542,11 @@ export default function Industriestherindustries() {
             </div>
 
             <p className="text-gray-600  text-justify leading-relaxed mb-4">
-              <strong>Landsking Infra Pvt. Ltd.</strong> operates a modern,
-              fully-integrated PEB manufacturing facility where every stage—
-              from design and fabrication to finishing and dispatch—takes place
-              under one roof. This seamless process ensures superior quality,
-              faster delivery, and reliable performance.
+              Landsking Infra Pvt. Ltd operates a modern, fully-integrated PEB
+              manufacturing facility where every stage— from design and
+              fabrication to finishing and dispatch—takes place under one roof.
+              This seamless process ensures superior quality, faster delivery,
+              and reliable performance.
             </p>
 
             <p className="text-gray-600 text-justify leading-relaxed mb-4">
@@ -628,21 +628,21 @@ export default function Industriestherindustries() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             {/* Left: Text Section */}
             <div>
-              <p className="text-gray-700 text-justify text-base leading-relaxed mb-4">
+              <p className="text-gray-600 text-justify text-base leading-relaxed mb-4">
                 With the growing adoption of virtual technologies in
-                construction, the role of lean Building Information Models (BIM)
-                and pre-engineering has become vital. Globally, infrastructure
-                upgrades are being driven by robotics, automation, drone-based
-                surveys, and even 3D printing solutions.
+                construction, the role of lean Building Information Modelling
+                (BIM) and pre-engineering has become vital. Globally,
+                infrastructure upgrades are being driven by robotics,
+                automation, drone-based surveys, and even 3D printing solutions.
               </p>
 
-              <p className="text-gray-700 text-justify text-base leading-relaxed mb-4">
+              <p className="text-gray-600 text-justify text-base leading-relaxed mb-4">
                 Key infrastructure sectors where{" "}
                 <span className="font-bold">Landsking Infra Pvt. Ltd.</span>{" "}
                 provides support include:
               </p>
 
-              <ul className="list-disc ml-6 space-y-2 text-gray-700 text-base leading-relaxed mb-4">
+              <ul className="list-disc ml-6 space-y-2 text-gray-600 text-base leading-relaxed mb-4">
                 <li>Power and Energy</li>
                 <li>
                   Transportation Hubs (Rail & Metro Stations, Bus Terminals,
@@ -651,7 +651,7 @@ export default function Industriestherindustries() {
                 <li>Stadiums and Leisure Centres</li>
               </ul>
 
-              <p className="text-gray-700 text-base text-justify leading-relaxed mb-4">
+              <p className="text-gray-600 text-base text-justify leading-relaxed mb-4">
                 This technological disruption is reshaping the way
                 infrastructure is designed, built, and maintained—ensuring
                 sustainability, efficiency, and safety. Construction firms that
@@ -659,7 +659,7 @@ export default function Industriestherindustries() {
                 modern infrastructure projects.
               </p>
 
-              <p className="text-gray-700  text-justify text-base leading-relaxed">
+              <p className="text-gray-600  text-justify text-base leading-relaxed">
                 As urban areas continue to transform,{" "}
                 <span className="font-bold">Landsking Infra Pvt. Ltd.</span> has
                 earned the trust of clients by offering expertise that minimizes
@@ -693,7 +693,7 @@ export default function Industriestherindustries() {
           </h2>
 
           {/* Support Rows */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-gray-700 text-base leading-relaxed">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-gray-600 text-base leading-relaxed">
             <div className="p-6 rounded-lg shadow-md hover:shadow-lg transition">
               <h3 className="font-bold text-[#000080] mb-2">
                 Research & Surveys
@@ -782,7 +782,7 @@ export default function Industriestherindustries() {
           </div>
 
           {/* About Section */}
-          <div className="mt-12 text-center text-gray-700 leading-relaxed max-w-4xl mx-auto">
+          <div className="mt-12 text-center text-gray-600 leading-relaxed max-w-4xl mx-auto">
             <p>
               Over the last 40 years,{" "}
               <span className="font-bold">Landsking Infra Pvt. Ltd.</span> has
