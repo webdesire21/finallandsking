@@ -171,7 +171,10 @@ export default function Rnd() {
               return (
                 <div
                   key={realIndex}
-                  onClick={() => setActive(realIndex)}
+                  onClick={() => {
+                    setActive(realIndex);
+                    router.push(slides[realIndex].link);
+                  }}
                   className={`cursor-pointer ${
                     isMobile ? "flex-1" : "flex-1 sm:w-auto"
                   }`}

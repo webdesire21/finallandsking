@@ -17,173 +17,152 @@ type Project = {
 const projects: Project[] = [
   {
     id: 1,
-    img: "/industry.jpg",
+    img: "/projects/maharajsagrproject.jpg",
     location: "MaharajSagar Warehouse, Lohati",
-    category: "Factory Buildings",
+    category: "Warehouse",
   },
   {
     id: 2,
-    img: "/realstate.png",
+    img: "/projects/babawarehouse.jpg",
     location: "Baba Warehouse, Pipariya",
-    category: "Commercial Building",
+    category: "Warehouse",
   },
 
   {
-    id: 4,
-    img: "/industry.jpg",
+    id: 3,
+    img: "/projects/devisingh.jpg",
     location: "Devisingh Patel Ware House, Raisen",
-    category: "Factory Buildings",
+    category: "Warehouse",
   },
+  {
+    id: 4,
+    img: "/projects/maanarmada.jpg",
+    location: "Maa Narmada Ware House, Pipriya",
+    category: "Warehouse",
+  },
+
   {
     id: 5,
-    img: "/industry.jpg",
-    location: "Maa Narmada Ware House, Pipriya",
-    category: "Commercial Building",
-  },
-  {
-    id: 6,
-    img: "/industry.jpg",
-    location: "Devisingh Patel Ware House, Raisen",
-    category: "Government & PSUs",
-  },
-  {
-    id: 7,
-    img: "/industry.jpg",
+    img: "/projects/astikagro.jpg",
     location: "Astik Agro Marketing, Hosangabad",
     category: "Factory Buildings",
   },
   {
-    id: 8,
-    img: "/industry.jpg",
+    id: 6,
+    img: "/projects/shreesai.jpg",
     location: "ShreeSai Ware House, Tikamgargh",
-    category: "Airport Building",
+    category: "Ware House",
   },
   {
-    id: 9,
-    img: "/industry.jpg",
+    id: 7,
+    img: "/projects/govvardhan.jpg",
     location: "Goverdhan WareHouse, Pipriya",
-    category: "Airport Building",
+    category: "Ware House",
   },
   {
-    id: 10,
-    img: "/industry.jpg",
+    id: 8,
+    img: "/projects/panchotiya.jpg",
     location: "100 ft Clear Span Panchotiya Warehouse, Kasrawad",
-    category: "Clean Room",
+    category: "Warehouse",
   },
 
   // Newly added with categories:
   {
-    id: 11,
-    img: "/industry.jpg",
+    id: 9,
+    img: "/projects/annapurna.jpg",
     location: "Maanpurna Warehouse, Nalkheda",
-    category: "Factory Buildings",
+    category: "Warehouse",
+  },
+  {
+    id: 10,
+    img: "/projects/agrawal.jpg",
+    location: "Agrawal Logistic Park, Dewas",
+    category: "Logistic Park",
+  },
+
+  {
+    id: 11,
+    img: "/projects/dhar.jpg",
+    location: "100X245 Clear 100ft Span, Ringnod Warehouse, Dhar",
+    category: "Warehouse",
   },
   {
     id: 12,
-    img: "/industry.jpg",
-    location: "Agrawal Logistic Park, Dewas",
-    category: "Commercial Building",
+    img: "/projects/ricemill.jpg",
+    location: "Reva Rice Mill Warehouse, Udaipura MP",
+    category: "Mill",
   },
   {
     id: 13,
-    img: "/industry.jpg",
-    location: "Trivani Crop Science Pvt Ltd, Factory Shed, Bhopal MP",
-    category: "Government & PSUs",
+    img: "/projects/mekalproduct.png",
+    location: "Mekal Food Products Pvt Ltd (Rice Mill, 120MT), Udaipura MP",
+    category: "Mill",
   },
   {
     id: 14,
-    img: "/industry.jpg",
-    location: "100X245 Clear 100ft Span, Ringnod Warehouse, Dhar",
-    category: "Clean Room",
+    img: "/projects/pmay.jpg",
+    location: "PMAY, Indore",
+    category: "Government ",
   },
   {
     id: 15,
-    img: "/industry.jpg",
-    location: "Reva Rice Mill Warehouse, Udaipura MP",
-    category: "Factory Buildings",
+    img: "/projects/irrigationnalkeda.jpg",
+    location: "Kundaliyalift Irrigation, Nalkheda",
+    category: "Irrigation",
   },
   {
     id: 16,
-    img: "/industry.jpg",
-    location: "Mekal Food Products Pvt Ltd (Rice Mill, 120MT), Udaipura MP",
-    category: "Factory Buildings",
+    img: "/projects/tataprojects.jpg",
+    location: "DFCC Site Tata Project, Ankleshwar, Gujarat",
+    category: "Government ",
   },
   {
     id: 17,
-    img: "/industry.jpg",
-    location: "PMAY, Indore",
-    category: "Government & PSUs",
+    img: "/projects/robhosangabad.jpg",
+    location: "ROB, Hoshangabad MP",
+    category: "Government ",
   },
   {
     id: 18,
-    img: "/industry.jpg",
-    location: "Kundaliyalift Irrigation, Nalkheda",
-    category: "Government & PSUs",
+    img: "/projects/solar.jpg",
+    location: "O2 Power, 200MW Solar Pilework, Agar MP",
+    category: "Government ",
   },
   {
     id: 19,
-    img: "/industry.jpg",
-    location: "DFCC Site Tata Project, Ankleshwar, Gujarat",
-    category: "Government & PSUs",
+    img: "/projects/tatasteelplant.png",
+    location: "TATA Steel Plant, Kaling Nagar, Odisha",
+    category: "Steel Plant",
   },
+
   {
     id: 20,
-    img: "/industry.jpg",
-    location: "ROB, Hoshangabad MP",
-    category: "Government & PSUs",
+    img: "/projects/prajindustry.jpg",
+    location: "Praj Industries Ltd, Kandala Port, Gujarat",
+    category: "Industrial Building",
   },
   {
     id: 21,
-    img: "/industry.jpg",
-    location: "O2 Power, 200MW Solar Pilework, Agar MP",
-    category: "Government & PSUs",
+    img: "/projects/mekalproduct.png",
+    location: "Mekal food Industries",
+    category: "Industrial Building",
   },
   {
     id: 22,
-    img: "/industry.jpg",
-    location: "TATA Steel Plant, Kaling Nagar, Odisha",
-    category: "Factory Buildings",
-  },
-  {
-    id: 23,
-    img: "/industry.jpg",
-    location: "TATA Steel Plant, Kaling Nagar, Odisha",
-    category: "Factory Buildings",
-  },
-  {
-    id: 24,
-    img: "/industry.jpg",
-    location: "Praj Industries Ltd, Kandala Port, Gujarat",
-    category: "Commercial Building",
-  },
-  {
-    id: 25,
-    img: "/industry.jpg",
-    location: "Mekal food Industries",
-    category: "Commercial Building",
-  },
-  {
-    id: 26,
-    img: "/industry.jpg",
+    img: "/projects/ricemillmp.jpg",
     location: "Reva Rice Mill",
-    category: "Commercial Building",
-  },
-  {
-    id: 27,
-    img: "/industry.jpg",
-    location: "Triveni crop",
-    category: "Commercial Building",
+    category: "Mill",
   },
 ];
 
 const categories = [
   "All",
-  "Airport Building",
-  "Canteen Building",
-  "Clean Room",
-  "Commercial Building",
-  "Factory Buildings",
-  "Government & PSUs",
+  "Industrial Building",
+  "Warehouse",
+  "Mill",
+  "Government ",
+  "Irrigation",
+  "Steel Plant",
 ];
 
 export default function Preengineredbuildingsprojects() {
@@ -225,7 +204,7 @@ export default function Preengineredbuildingsprojects() {
         <div
           className="flex-1 flex items-center justify-center p-6 sm:p-8 bg-cover bg-center relative"
           style={{
-            backgroundImage: `linear-gradient(rgba(14,14,85,0.4), rgba(14,14,85,0.4)), url('/aboutright.jpeg')`,
+            backgroundImage: `linear-gradient(rgba(10,10,50,0.2), rgba(10,10,50,0.2)), url('/pr.jpg')`,
           }}
         >
           <div className="text-white text-center relative z-10">
@@ -238,7 +217,9 @@ export default function Preengineredbuildingsprojects() {
 
       <div className="max-w-7xl mx-auto px-4 py-10">
         <div className="text-center my-8">
-          <h1 className="text-3xl font-bold">OUR RECENT WORKS</h1>
+          <h1 className="text-3xl font-bold text-[#000080]">
+            Our Recent Works
+          </h1>{" "}
           <p className="mt-2 text-gray-600">
             Explore Innovative Projects to Spark Your Ideas
           </p>

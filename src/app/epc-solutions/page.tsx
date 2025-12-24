@@ -235,7 +235,7 @@ export default function Epcsolutions() {
             </p>
 
             <img
-              src="/realstate/solar project analysis service.jpg"
+              src="/solardesign/solar design.png"
               alt=" Solar Project"
               className="w-full h-52 object-cover"
             />

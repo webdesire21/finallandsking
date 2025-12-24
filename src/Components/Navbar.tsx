@@ -443,10 +443,9 @@ export default function Navbar() {
             )}
           </div>
 
-          {/* Projects */}
-          <Link href="/projects" className="hover:opacity-80">
+          {/* <Link href="/projects" className="hover:opacity-80">
             Projects
-          </Link>
+          </Link> */}
 
           {/* Insights */}
           <div className="relative">
@@ -715,24 +714,19 @@ export default function Navbar() {
             )}
           </div>
 
-          <Link
+          {/* <Link
             href="/projects"
             className="block py-2 border-b border-gray-200 hover:text-[#23dce1]"
           >
             PROJECTS
-          </Link>
+          </Link> */}
           <Link
             href="/insights"
             className="block py-2 border-b border-gray-200 hover:text-[#23dce1]"
           >
             INSIGHTS
           </Link>
-          <Link
-            href="#"
-            className="block py-2 border-b border-gray-200 hover:text-[#23dce1]"
-          >
-            MEDIA
-          </Link>
+
           {/* About collapsible */}
 
           <Link

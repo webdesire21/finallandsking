@@ -208,7 +208,7 @@ export default function Projects() {
         <div
           className="flex-1 flex items-center justify-center p-6 sm:p-8 bg-cover bg-center relative"
           style={{
-            backgroundImage: `linear-gradient(rgba(14,14,85,0.4), rgba(14,14,85,0.4)), url('/aboutright.jpeg')`,
+            backgroundImage: `linear-gradient(rgba(10,10,50,0.2), rgba(10,10,50,0.2)), url('/pr.jpg')`,
           }}
         >
           <div className="text-white text-center relative z-10">
@@ -221,7 +221,9 @@ export default function Projects() {
 
       <div className="max-w-7xl mx-auto px-4 py-10">
         <div className="text-center my-8">
-          <h1 className="text-3xl font-bold">OUR RECENT WORKS</h1>
+          <h1 className="text-3xl font-bold text-[#000080]">
+            Our Recent Works
+          </h1>
           <p className="mt-2 text-gray-600">
             Explore Innovative Projects to Spark Your Ideas
           </p>
