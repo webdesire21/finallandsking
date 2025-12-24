@@ -37,7 +37,7 @@ const expertiseData: {
       },
       {
         name: "Construction Works",
-        image: "/expertiseimages/industry/machine.jpg",
+        image: "/menupageimg/mod13.jpg",
         url: "/industryinstallation-construction",
       },
 
@@ -58,7 +58,7 @@ const expertiseData: {
       },
       {
         name: "Product Engineering",
-        image: "/expertiseimages/renewable/wind.jpg",
+        image: "/rndimages/Global infra.jpeg",
         url: "/productengineering",
       },
       {
@@ -83,7 +83,7 @@ const expertiseData: {
     items: [
       {
         name: "Pre Engineered Building",
-        image: "/expertiseimages/renewable/solar.jpg",
+        image: "/preimages/pref.jpg",
         url: "/peb",
       },
       {
@@ -146,7 +146,7 @@ const expertiseData: {
       },
       {
         name: "Logistic & Industry",
-        image: "/realmanage properties (2).jpg",
+        image: "/real/manage properties (2).jpg",
         url: "/property-types",
       },
 
@@ -162,7 +162,7 @@ const expertiseData: {
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
-  const [rightImage, setRightImage] = useState("/service.jpg"); // default img
+  const [rightImage, setRightImage] = useState("/service.jpg");
   const [language, setLanguage] = useState("EN");
 
   // Set default selected category
@@ -175,13 +175,12 @@ export default function Navbar() {
     setOpenDropdown(openDropdown === name ? null : name);
 
     if (name === "expertise") {
-      // Set default image to first item of the selected category
       setRightImage(
         expertiseData[firstCategory].items[0]?.image || "/service.jpg"
       );
       setSelectedLeftCategory(firstCategory);
     } else {
-      setRightImage("/service.jpg"); // reset for other dropdowns
+      setRightImage("/service.jpg");
     }
   };
 
@@ -493,11 +492,9 @@ export default function Navbar() {
 
           {/* About */}
         </nav>
-        {/* Desktop Right Icons */}
-        {/* <div className="hidden md:flex items-center space-x-4"> */}
+
         <div className="hidden xl:flex items-center space-x-4">
           <div className="relative">
-            {/* Search Icon */}
             <button
               onClick={() => toggleDropdown("search")}
               aria-label="Open search"
@@ -506,7 +503,6 @@ export default function Navbar() {
               <MagnifyingGlassIcon className="h-6 w-6 hover:opacity-80" />
             </button>
 
-            {/* Dropdown Menu */}
             {openDropdown === "search" && (
               <div
                 onMouseLeave={() => setOpenDropdown(null)}
@@ -600,7 +596,6 @@ export default function Navbar() {
             HOME
           </Link>
 
-          {/* Industries collapsible */}
           <div className="border-b border-gray-200 py-2">
             <button
               onClick={() => toggleDropdown("industries")}
@@ -662,7 +657,6 @@ export default function Navbar() {
             )}
           </div>
 
-          {/* Expertise collapsible */}
           <div className="border-b border-gray-200 py-2">
             <button
               onClick={() => toggleDropdown("expertise")}
